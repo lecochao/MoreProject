@@ -66,7 +66,9 @@ xcworkspace依赖分模块管理项目---这一刻更清晰...
                         objc-class-ref in ViewController.o
                        报错_
                   这样bundle就可以正常打包到app中了
-    1. 最后别忘了 other Linker Flags 中添加-all_load,不然文件也会找不哦！[image txet]14
+    1. 最后别忘了 other Linker Flags 中添加-all_load,不然文件也会找不哦！
+    
+    ![Image text](https://raw.githubusercontent.com/lecochao/MoreProject/master/image/14.png)
 
 # 相关参考 #
 http://www.jianshu.com/p/744b562af548
